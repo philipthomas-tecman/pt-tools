@@ -18,6 +18,22 @@
       "version": "1.0.0",
       "author": { "name": "Philip Thomas" },
       "keywords": ["docx","style","neutral","generic"]
+    },
+    {
+      "name": "loop-harness",
+      "source": "./plugins/loop-harness",
+      "description": "Stack-agnostic loop-engineering harness: pwsh hooks (session context, deny-list guard, Stop gate on build/verify.ps1), maker/checker/explorer/verifier sub-agents, /init-harness bootstrap, per-stack verify templates.",
+      "version": "0.4.0",
+      "author": { "name": "Philip Thomas" },
+      "keywords": ["build", "test", "implement"]
+    },
+    {
+      "name": "ai-agent-pack",
+      "source": "./plugins/ai-agent-pack",
+      "description": "Build tooling for AI features: build-agent, build-connector, build-mcp-server and write-evals skills, plus a manifest-checker agent. Composes with loop-harness.",
+      "version": "0.4.0",
+      "author": { "name": "Philip Thomas" },
+      "keywords": ["build-agent", "agent", "build-connector", "connector" , "build-mcp-server", "mcp" , "mcp-server"]
     }
   ]
 }

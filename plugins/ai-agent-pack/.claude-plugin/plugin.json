@@ -1,0 +1,8 @@
+{
+  "name": "ai-agent-pack",
+  "version": "0.1.0",
+  "description": "Build tooling for AI features: skills for building agents (declarative, config-first), connectors/tools (contract-first, host-agnostic), and MCP servers, plus an eval discipline that keeps a loop honest, and a manifest-checker agent. Composes with the loop-harness base; has no dependency on any documentation or project-kickoff process.",
+  "author": { "name": "Philip Thomas" },
+  "keywords": ["ai", "agents", "mcp", "connectors", "evals"],
+  "license": "MIT"
+}
